@@ -4,6 +4,7 @@ const content = document.querySelector('.content');
 
 const greetings = ['I was fine but now you came', 'I am good, unlike you', 'Fuck you nigger'];
 const weather = ['why do you wanna know you never go out', 'Storm of gayness in your mind'];
+const meme  = ['Ur mom gay', 'Ok boomer', 'That wasn\'t very cash money of you'];
 
 const SpeechRecognition = window.SpeechRecogniton || window.webkitSpeechRecognition;
 const recognition = new SpeechRecognition();
@@ -35,6 +36,11 @@ function readOutLoud(message) {
     speech.text = finaltext;
   } else if (message.includes('weather')) {
     const finalText = weather[Math.floor(Math.random() * weather.length)];
+    speech.text = finalText;
+  } else if (message.includes('mum') && message.includes('gay')) {
+    speech.text = "no u";
+  } else {
+    const finalText = meme[Math.floor(Math.random() * meme.length)];
     speech.text = finalText;
   }
 
