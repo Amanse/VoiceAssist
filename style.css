@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    font-family: sans-serif;
+}
+
+.jumbotron {
+    height: 100vh;
+}
+
+.content {
+    font-family: sans-serif;
+}
