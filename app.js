@@ -39,6 +39,8 @@ function readOutLoud(message) {
     speech.text = finalText;
   } else if (message.includes('mum') && message.includes('gay')) {
     speech.text = "no u";
+  } else if (message.includes('kill') && message.includes('me') ) {
+    speech.text = 'i really wish i could';
   } else {
     const finalText = meme[Math.floor(Math.random() * meme.length)];
     speech.text = finalText;
