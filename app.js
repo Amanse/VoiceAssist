@@ -2,8 +2,8 @@ const button = document.querySelector('.talk');
 const content = document.querySelector('.content');
 
 
-const greetings = ['I was fine but now you came', 'I am good, unlike you', 'Fuck you nigger'];
-const weather = ['why do you wanna know you never go out', 'Storm of gayness in your mind'];
+const greetings = ['I was fine but now you came', 'I am good, unlike you', 'No'];
+const weather = ['why do you wanna know you never go out', 'Storm of dumbness in your mind'];
 const meme  = ['Ur mom gay', 'Ok boomer', 'That wasn\'t very cash money of you'];
 
 const SpeechRecognition = window.SpeechRecogniton || window.webkitSpeechRecognition;
